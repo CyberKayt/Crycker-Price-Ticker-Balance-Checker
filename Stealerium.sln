@@ -5,10 +5,12 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "Stub\Stub.csproj", "{2FFDFCA9-31A2-4EE5-B87C-AE5B8D20096D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{0937D058-D1C4-46F3-A806-913707519712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{0937D058-D1C4-46F3-A806-913707519712}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2FFDFCA9-31A2-4EE5-B87C-AE5B8D20096D} = {2FFDFCA9-31A2-4EE5-B87C-AE5B8D20096D}
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{D9610E44-F853-40C1-9615-0D6BACDAEF6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
