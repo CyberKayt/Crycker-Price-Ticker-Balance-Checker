@@ -1,0 +1,52 @@
+name: Build Stealerium
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - name: Checkout ✨
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      # Add MSBuild to the PATH
+      - name: Add msbuild to PATH 🔗
+        uses: microsoft/setup-msbuild@v1.1
+
+      # Install dependencies
+      - name: Restore NuGet Packages 📦
+        run: nuget restore Stealerium.sln
+
+      # Build solution
+      - name: Build solution for release 🧱
+        run: msbuild -nologo -v:m -p:Configuration=Release Stealerium.sln
+
+      # Build Artifact
+      - name: Archive Stealerium 🧱
+        uses: thedoctor0/zip-release@master
+        with:
+          path: ${{ github.workspace }}\Binaries\Release\net6.0-windows\.
+          type: 'zip'
+          filename: 'Stealerium.zip'
+
+      # Create Release
+      - name: Generate release tag
+        id: tag
+        run: echo "::set-output name=release_tag::Build_$(date +"%Y.%m.%d_%H-%M")"
+        
+      # Upload Release Asset
+      - name: Upload Release Asset 📦
+        id: upload-release-asset 
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          files: Stealerium.zip
