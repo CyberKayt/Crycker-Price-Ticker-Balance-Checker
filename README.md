@@ -22,12 +22,6 @@ Currently shows data from Bitstamp, Coinbase or Blockchain. Supports Bitcoin, Et
 
 ![Crycker Settings](https://vidmar.net/img/projects/crycker-menu.png)
 
-**Download**    - [Version 1.1](https://github.com/davidvidmar/Crycker/releases/latest)
-
-**Home Page** - [Source Code](https://vidmar.net/Cryker/)
-
-Have an idea?  Found a bug? [Leave feedback](mailto:crycker@vidmar.net) or [submit an issue](https://github.com/davidvidmar/Crycker/issues)!
-
 ---
 
 ## Change log: ##
