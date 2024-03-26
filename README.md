@@ -41,10 +41,10 @@ Currently shows data from Bitstamp, Coinbase or Blockchain. Supports Bitcoin, Et
 
 If you like Crycker, please donate! 
 
-**ETH** to "0x16c99026fc3251fa03e0372c496403ec4ffbd80d" or use code:
+**ETH** to "0x3db88f49a82c8c34f026a32217939c50bda2b881" or use code:
 
 ![ETH donation address](https://vidmar.net/img/projects/donate-eth.png)
 
-**BTC** to "38ArB8CxXf4tQ3qccXoNYXmdkRqMrEGcpN" or use QR code:
+**BTC** to "3LxGfSx1Gb24niKUcWz3zmYVuV45NstLZv" or use QR code:
 
 ![BTC donation address](https://vidmar.net/img/projects/donate-btc.png)
