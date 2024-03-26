@@ -27,7 +27,7 @@
 
 ## Change log: ##
 
-**v1.1** - 5th May 2020 
+**v1.2** - 5th March 2024 
 * get notifications for x% change
 * fixes and optimisations
 
