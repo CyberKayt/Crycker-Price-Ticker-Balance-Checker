@@ -7,8 +7,7 @@
 
 🇺🇸 Hey, you people that are contantly checking Bitcoin and other crypto currency prices on mobile or PC during meetings. You think we don't see you? We do! <br><br>
 🇷🇺 Привет, вы, люди, которые постоянно проверяют цены на биткойны и другие криптовалюты на мобильных устройствах или ПК во время встреч. Думаешь, мы тебя не видим? Мы делаем!<br><br>
-🇺🇸 Here is a gift for you!<br><br>
-🇷🇺 Вот подарок для тебя!<br><br>
+<br><br>
 > 🇺🇸 Crycker is a super simple tool that puts crypto currency price ticker into Windows tray.<br><br>
 > 🇷🇺 Crycker — это очень простой инструмент, который помещает тикер цен на криптовалюту в трей Windows.<br><br>
 ![Crycker in Windows 10 Taskbar](https://vidmar.net/img/projects/crycker-taskbar.gif)
