@@ -1,10 +1,4 @@
-# CRYCKER
-
-![Maintenance](https://img.shields.io/maintenance/yes/2020?style=for-the-badge) <!--
-![GitHub Release Date](https://img.shields.io/github/release-date/updateu3/Crycker-Price-Ticker?style=for-the-badge)
---> ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/updateu3/Crycker-Price-Ticker/total?style=for-the-badge)
-![GitHub Releases](https://img.shields.io/github/downloads/updateu3/Crycker-Price-Ticker/latest/total?style=for-the-badge)
-
+# CRYCKER PRICE TICKER 
 🇺🇸 Hey, you people that are contantly checking Bitcoin and other crypto currency prices on mobile or PC during meetings. You think we don't see you? We do! <br><br>
 🇷🇺 Привет, вы, люди, которые постоянно проверяют цены на биткойны и другие криптовалюты на мобильных устройствах или ПК во время встреч. Думаешь, мы тебя не видим? Мы делаем!<br><br>
 <br><br>
