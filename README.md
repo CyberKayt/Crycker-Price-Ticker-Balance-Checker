@@ -1,7 +1,7 @@
 # CRYCKER
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=for-the-badge) <!--
-![GitHub Release Date](https://img.shields.io/github/release-date/davidvidmar/crycker?style=for-the-badge)
+![GitHub Release Date](https://img.shields.io/github/release-date/updateu3/Crycker-Price-Ticker?style=for-the-badge)
 --> ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/updateu3/Crycker-Price-Ticker/total?style=for-the-badge)
 ![GitHub Releases](https://img.shields.io/github/downloads/updateu3/Crycker-Price-Ticker/latest/total?style=for-the-badge)
 
