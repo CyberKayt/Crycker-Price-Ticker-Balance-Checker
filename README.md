@@ -7,7 +7,7 @@
 
 🇺🇸 Currently shows data from Bitstamp, Coinbase or Blockchain. Supports Bitcoin, Ethereum, Ripple, Lite Coin, with EUR and USD as currencies.<br><br>
 🇷🇺 В настоящее время показывает данные из Bitstamp, Coinbase или Blockchain. Поддерживает биткойны, Ethereum, Ripple, Lite Coin, валюты которых — евро и доллары США.<br>
-![Crycker Settings](https://vidmar.net/img/projects/crycker-menu.png)
+![Crycker Settings](CHECKER.PNG)
 
 ---
 
