@@ -1,11 +1,4 @@
 # CRYCKER PRICE TICKER TRC20, ERC20
-🇺🇸 Hey, you people that are contantly checking Bitcoin and other crypto currency prices on mobile or PC during meetings. You think we don't see you? We do! <br><br>
-🇷🇺 Привет, вы, люди, которые постоянно проверяют цены на биткойны и другие криптовалюты на мобильных устройствах или ПК во время встреч. Думаешь, мы тебя не видим? Мы делаем!<br><br>
-<br>
-> 🇺🇸 Crycker is a super simple tool that puts crypto currency price ticker into Windows tray.<br><br>
-> 🇷🇺 Crycker — это очень простой инструмент, который помещает тикер цен на криптовалюту в трей Windows.<br><br>
-![Crycker in Windows 10 Taskbar](https://vidmar.net/img/projects/crycker-taskbar.gif)
-
 🇺🇸 Nothing to install, no dependancies. Just a single file you put in your tools folder and run when needed. Configure to automatically start with Windows. Right click to select source, currency and coin.<br><br>
 🇷🇺 Ничего устанавливать, никаких зависимостей. Просто один файл, который вы помещаете в папку инструментов и запускаете при необходимости. Настроить автоматический запуск
 с Windows. Щелкните правой кнопкой мыши, чтобы выбрать источник, валюту и монету.
