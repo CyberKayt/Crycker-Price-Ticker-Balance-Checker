@@ -6,6 +6,42 @@
   <br><i>Finds all addresses in text on the clipboard, in files and connected USB devices, and changes them to the most similar ones from your list based on the first and last characters. Has protection against antivirus analysis
 </i>
 </p></p>
+
+
+Вирус-клииппер (Crypto Clipper)
+
+Клииппер — это вредоносная программа, предназначенная для кражи криптовалют. Её принцип действия заключается в подмене криптовалютного кошелька в буфере обмена устройства.
+
+Как работает:
+
+    Пользователь копирует на своём устройстве корректный адрес кошелька для перевода.
+
+    Клиппер в фоновом режиме подменяет скопированный адрес на адрес кошелька, контролируемый злоумышленником.
+
+    Когда пользователь вставляет адрес для подтверждения перевода, он не замечает подмены и отправляет средства на кошелёк хакера.
+
+    Перевод невозможно отменить, а средства безвозвратно теряются.
+
+Чаще всего распространяется через фишинговые сайты, поддельные приложения, взломанное ПО и пиратские программы.
+
+Clipper Virus (Crypto Clipper)
+
+A Clipper is a type of malware designed to steal cryptocurrency. Its method of operation is to replace a cryptocurrency wallet address in the device's clipboard.
+
+How it works:
+
+    A user copies the correct recipient's wallet address to make a transfer.
+
+    The Clipper silently replaces the copied address with one that belongs to the attacker.
+
+    When the user pastes the address to confirm the transaction, they don't notice the switch and sends the funds directly to the hacker's wallet.
+
+    The transaction is irreversible, and the funds are lost forever.
+
+It is commonly distributed through phishing websites, fake software apps, cracked programs, and pirated content.
+
+
+
 <br>
 # 💰 Wallets:</p>
 - [x] Bitcoin - 1*** 3*** bc1***</p>
